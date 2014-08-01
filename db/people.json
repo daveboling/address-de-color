@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Jason",
+		"email": "jason@gmail.com",
+		"website": "Jason.com",
+		"twitter": "@jason",
+		"color": "red",
+		"phone": "555-555-5555",
+		"address": "555 Jason Way"
+	},
+
+	{
+		"name": "Samantha",
+		"email": "Samantha@gmail.com",
+		"website": "Samantha.com",
+		"twitter": "@samantha",
+		"color": "blue",
+		"phone": "555-555-5555",
+		"address": "111 Sammy Way"
+	},
+
+	{
+		"name": "Bill",
+		"email": "bill@gmail.com",
+		"website": "bill.com",
+		"twitter": "@bill",
+		"color": "green",
+		"phone": "555-555-5555",
+		"address": "555 Billy Way"
+	},
+]

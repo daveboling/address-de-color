@@ -1,0 +1,96 @@
+@import url(http://fonts.googleapis.com/css?family=Oswald);
+
+
+body, html {
+	margin: 0px;
+}
+
+nav {
+	text-align: center;
+	font-size: 1.3em;
+	font-family: 'Oswald', 'sans-serif';
+}
+
+nav ul {
+	list-style: none;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 20px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	padding: 20px;
+	color: black;
+}
+
+nav ul li a:hover {
+	background-color: black;
+	color: white;
+}
+
+.wrapper {
+	width: 90%;
+	border-left: 1px solid black;
+	border-right: 1px solid black;
+	margin: 0px auto;
+	background-color: rgba(0, 0, 0, 0.5);
+	border-radius: 10px;
+	padding: 20px;
+	margin-top: 20px;
+	min-width: 1000px;
+	max-width: 100%;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.person, .people {
+	display: inline-block;
+	margin: 2px;
+	text-align: center;
+	margin: 0px auto;
+	font-family: 'Oswald', 'sans-serif';
+}
+
+.square {
+  width: 400px;
+  height: 100%;
+  border: 2px solid black;
+  border-radius: 10px;
+  display: inline-block;
+  margin: 0px auto;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.5); 
+  margin: 2px;
+}
+
+.name {
+  font-size: 30px;
+  text-align: center;
+  border-bottom: 1px solid black;
+  display: block;
+}
+
+.email div, .website div, .twitter div, .phone div {
+  display: inline-block;
+  width: 45%;
+  height: 100%;
+  font-size: 20px;
+}
+
+.email div:nth-child(2), .website div:nth-child(2), .twitter div:nth-child(2), .phone div:nth-child(2) {
+  border-left: 1px solid black;
+  padding-left: 20px;
+}
+
+.email div:nth-child(1), .website div:nth-child(1), .twitter div:nth-child(1), .phone div:nth-child(1) {
+  text-align: right;
+}
+
+
+

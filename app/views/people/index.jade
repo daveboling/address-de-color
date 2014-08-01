@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+html(lang="en")
+head
+	meta(charset="UTF-8")
+	title People Page 
+	link(rel="stylesheet", href="/css/styles.css")
+body
+	.wrapper
+		nav
+			ul
+				li: a(href="/") Home
+				li: a(href="/about") About
+				li: a(href="/faq") FAQ 
+				li: a(href="/contact") Contact
+				li: a(href="/people") People
+
+		.people
+			each person in people
+				.person
+					.square
+						.name(style="color: #{person.color}")= person.name
+						.email 
+							div E-mail
+							div: a(href="#{person.email}") #{person.email}
+						.website
+							div Website
+							div= person.website
+						.twitter
+							div Twitter
+							div= person.twitter
+						.phone
+							div Phone Number
+							div= person.phone
